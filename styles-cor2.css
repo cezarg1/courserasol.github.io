@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+}
+
+body{
+	background-color: #cda2e0;
+}
+
+/* website title */
+h1 { 
+	padding: 10px;
+	padding-bottom: 40px;
+	font-family: ariel, sans-serif; /* keeping a consistant font */
+	text-align: center;
+}
+
+/* menu section 1 */
+
+section {
+	font-size: 25; /* keep a consistant font size for section titles */
+	border: 1px solid black;
+	margin: 15px;
+	margin-left: 32px;
+	background-color: #D8D8D8;
+	font-family: ariel, sans-serif; /* keeping a consistant font */
+	width: 425px;
+	height: 175px;
+	
+}
+
+/* section heading/title for refrence */
+
+h2 {
+	background-color: #f0a5c3;
+	font-family: ariel, sans-serif; /* keeping a consistant font */
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+	height: auto;
+}
+
+/* first paragraph for refrence */
+
+p {
+    font-family: ariel, sans-serif; /* keeping a consistant font */
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 20px;
+}
+
+/* this is the seccond item on the menu */
+
+section {
+	border: 1px solid black;
+	background-color: #D8D8D8;
+	margin: 15px;
+	margin-left: 32px;
+	font-family: ariel, sans-serif; /* keeping a consistant font */
+	width: 425px;
+	height: 175px;
+	float: left;
+
+}
+
+/* section heading/title for refrence */
+
+h3 {
+	background-color: #b83540;
+	font-size: 25px; /* keep a consistant font size for section titles */
+	font-family: ariel, sans-serif; /* keeping a consistant font */
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+	height: auto;
+}
+
+/* seccond paragraph for refrence */
+
+p {
+    font-family: ariel, sans-serif; /* keeping a consistant font */
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 20px;
+}
+
+/* this is the third item on the menu */
+
+section {
+	font-size: 25; /* keep a consistant font size for section titles */
+	border: 1px solid black;
+	margin: 15px;
+	margin-left: 32px;
+	background-color: #D8D8D8;
+	font-family: ariel, sans-serif; /* keeping a consistant font */
+	width: 425px;
+	height: 175px;
+	float: left;
+	
+}
+
+/* section heading/title for refrence */
+
+h4 {
+	background-color: #cfad82;
+	font-size: 25px; /* keep a consistant font size for section titles */
+	font-family: ariel, sans-serif; /* keeping a consistant font */
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+	height: auto;
+}
+
+/* first paragraph for refrence */
+
+p {
+    font-family: ariel, sans-serif; /* keeping a consistant font */
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 20px;
+}
+
+/********** desktop view  **********/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/********** ipad view **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#section {
+		width: 92.5%;
+}
+
+/********** iphone view  **********/
+
+@media (min-width:  767pxpx) {
+
+}
